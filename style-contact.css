@@ -1,0 +1,121 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Container */
+  .contact-container {
+    max-width: 600px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Headings and Paragraphs */
+  .contact-container h1 {
+    margin-bottom: 10px;
+    font-size: 32px;
+    color: #333;
+  }
+  
+  .contact-container p {
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  /* Form Styles */
+  .contact-form input,
+  .contact-form textarea {
+    width: 90%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .contact-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Contact Info */
+  .contact-info {
+    margin-top: 30px;
+    text-align: left;
+  }
+  
+  .contact-info h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .contact-info p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .contact-info i {
+    margin-right: 10px;
+    color: #4CAF50;
+  }
+  
+  /* Map Container */
+  .map-container {
+    margin-top: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 50px;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #4CAF50;
+  }
+  
